@@ -1,7 +1,7 @@
 ## Restaurant Catalog
 
 #### DESCRIPTION
-This is just a simple app builded in PYTHON for the back-end part.
+This is just a demo builded with PYTHON for the back-end part.
 the purpose of this app is to use a database for managing, trough [SQLAlchemy](https://www.sqlalchemy.org/) library for Python, menus in several restaurants, with the possibility of adding, modifying and removing items into the database.
 
 #### RUNNING THE PROGRAM
@@ -16,4 +16,6 @@ Use `vagrant up` to bring the virtual machine online and `vagrant ssh` to login.
     * `python database_employee_setup`
     * `python lotsofmenu.py`
 
-4. Now execute the Python file - `webserver.py`.
+4. Now execute one of those files:
+    *  `python webserver.py` if you want to test a version without FLASK framework
+    *  `python project.py` for the FLASK version
